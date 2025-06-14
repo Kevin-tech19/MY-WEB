@@ -7,6 +7,9 @@
     {
 
       "src": "index.html",
+      "src": "main.html",
+      "src": "pair.html",
+      "src": "qr.html",
 
       "use": "@vercel/static"
 
@@ -17,6 +20,9 @@
   "routes": [
 
     { "src": "/(.*)", "dest": "/index.html" }
+    { "src": "/(.*)", "dest": "/main.html" }
+    { "src": "/(.*)", "dest": "/pair.html" }
+    { "src": "/(.*)", "dest": "/qr.html" }
 
   ]
 
